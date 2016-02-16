@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED550F9D1C73905800057181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550F9C1C73905800057181 /* AppDelegate.swift */; };
+		ED550F9F1C73905800057181 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550F9E1C73905800057181 /* MasterViewController.swift */; };
+		ED550FA11C73905800057181 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FA01C73905800057181 /* DetailViewController.swift */; };
+		ED550FA41C73905800057181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED550FA21C73905800057181 /* Main.storyboard */; };
+		ED550FA91C73905800057181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED550FA71C73905800057181 /* LaunchScreen.storyboard */; };
+		ED550FB41C73905800057181 /* StretchyHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FB31C73905800057181 /* StretchyHeaderTests.swift */; };
+		ED550FBF1C73905800057181 /* StretchyHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FBE1C73905800057181 /* StretchyHeaderUITests.swift */; };
+		ED550FCD1C73960200057181 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FCC1C73960200057181 /* TableViewCell.swift */; };
+		ED550FCF1C73A5BB00057181 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FCE1C73A5BB00057181 /* NewsItem.swift */; };
+		ED550FD11C73AC8600057181 /* Stretchy-Header.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED550FD01C73AC8600057181 /* Stretchy-Header.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED550FB01C73905800057181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED550F911C73905800057181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED550F981C73905800057181;
+			remoteInfo = StretchyHeader;
+		};
+		ED550FBB1C73905800057181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED550F911C73905800057181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED550F981C73905800057181;
+			remoteInfo = StretchyHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED550F991C73905800057181 /* StretchyHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchyHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED550F9C1C73905800057181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED550F9E1C73905800057181 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		ED550FA01C73905800057181 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ED550FA31C73905800057181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED550FA81C73905800057181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED550FAA1C73905800057181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED550FAF1C73905800057181 /* StretchyHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchyHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED550FB31C73905800057181 /* StretchyHeaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderTests.swift; sourceTree = "<group>"; };
+		ED550FB51C73905800057181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED550FBA1C73905800057181 /* StretchyHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchyHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED550FBE1C73905800057181 /* StretchyHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderUITests.swift; sourceTree = "<group>"; };
+		ED550FC01C73905800057181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED550FCC1C73960200057181 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../TableViewCell.swift; sourceTree = "<group>"; };
+		ED550FCE1C73A5BB00057181 /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsItem.swift; path = ../NewsItem.swift; sourceTree = "<group>"; };
+		ED550FD01C73AC8600057181 /* Stretchy-Header.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Stretchy-Header.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED550F961C73905800057181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FAC1C73905800057181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FB71C73905800057181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED550F901C73905800057181 = {
+			isa = PBXGroup;
+			children = (
+				ED550F9B1C73905800057181 /* StretchyHeader */,
+				ED550FB21C73905800057181 /* StretchyHeaderTests */,
+				ED550FBD1C73905800057181 /* StretchyHeaderUITests */,
+				ED550F9A1C73905800057181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED550F9A1C73905800057181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED550F991C73905800057181 /* StretchyHeader.app */,
+				ED550FAF1C73905800057181 /* StretchyHeaderTests.xctest */,
+				ED550FBA1C73905800057181 /* StretchyHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED550F9B1C73905800057181 /* StretchyHeader */ = {
+			isa = PBXGroup;
+			children = (
+				ED550F9C1C73905800057181 /* AppDelegate.swift */,
+				ED550F9E1C73905800057181 /* MasterViewController.swift */,
+				ED550FA01C73905800057181 /* DetailViewController.swift */,
+				ED550FCC1C73960200057181 /* TableViewCell.swift */,
+				ED550FCE1C73A5BB00057181 /* NewsItem.swift */,
+				ED550FA21C73905800057181 /* Main.storyboard */,
+				ED550FA71C73905800057181 /* LaunchScreen.storyboard */,
+				ED550FAA1C73905800057181 /* Info.plist */,
+				ED550FD01C73AC8600057181 /* Stretchy-Header.xcassets */,
+			);
+			path = StretchyHeader;
+			sourceTree = "<group>";
+		};
+		ED550FB21C73905800057181 /* StretchyHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED550FB31C73905800057181 /* StretchyHeaderTests.swift */,
+				ED550FB51C73905800057181 /* Info.plist */,
+			);
+			path = StretchyHeaderTests;
+			sourceTree = "<group>";
+		};
+		ED550FBD1C73905800057181 /* StretchyHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED550FBE1C73905800057181 /* StretchyHeaderUITests.swift */,
+				ED550FC01C73905800057181 /* Info.plist */,
+			);
+			path = StretchyHeaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED550F981C73905800057181 /* StretchyHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED550FC31C73905800057181 /* Build configuration list for PBXNativeTarget "StretchyHeader" */;
+			buildPhases = (
+				ED550F951C73905800057181 /* Sources */,
+				ED550F961C73905800057181 /* Frameworks */,
+				ED550F971C73905800057181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StretchyHeader;
+			productName = StretchyHeader;
+			productReference = ED550F991C73905800057181 /* StretchyHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED550FAE1C73905800057181 /* StretchyHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED550FC61C73905800057181 /* Build configuration list for PBXNativeTarget "StretchyHeaderTests" */;
+			buildPhases = (
+				ED550FAB1C73905800057181 /* Sources */,
+				ED550FAC1C73905800057181 /* Frameworks */,
+				ED550FAD1C73905800057181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED550FB11C73905800057181 /* PBXTargetDependency */,
+			);
+			name = StretchyHeaderTests;
+			productName = StretchyHeaderTests;
+			productReference = ED550FAF1C73905800057181 /* StretchyHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED550FB91C73905800057181 /* StretchyHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED550FC91C73905800057181 /* Build configuration list for PBXNativeTarget "StretchyHeaderUITests" */;
+			buildPhases = (
+				ED550FB61C73905800057181 /* Sources */,
+				ED550FB71C73905800057181 /* Frameworks */,
+				ED550FB81C73905800057181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED550FBC1C73905800057181 /* PBXTargetDependency */,
+			);
+			name = StretchyHeaderUITests;
+			productName = StretchyHeaderUITests;
+			productReference = ED550FBA1C73905800057181 /* StretchyHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED550F911C73905800057181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Carl Udren";
+				TargetAttributes = {
+					ED550F981C73905800057181 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					ED550FAE1C73905800057181 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ED550F981C73905800057181;
+					};
+					ED550FB91C73905800057181 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ED550F981C73905800057181;
+					};
+				};
+			};
+			buildConfigurationList = ED550F941C73905800057181 /* Build configuration list for PBXProject "StretchyHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED550F901C73905800057181;
+			productRefGroup = ED550F9A1C73905800057181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED550F981C73905800057181 /* StretchyHeader */,
+				ED550FAE1C73905800057181 /* StretchyHeaderTests */,
+				ED550FB91C73905800057181 /* StretchyHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED550F971C73905800057181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED550FD11C73AC8600057181 /* Stretchy-Header.xcassets in Resources */,
+				ED550FA91C73905800057181 /* LaunchScreen.storyboard in Resources */,
+				ED550FA41C73905800057181 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FAD1C73905800057181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FB81C73905800057181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED550F951C73905800057181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED550FA11C73905800057181 /* DetailViewController.swift in Sources */,
+				ED550FCF1C73A5BB00057181 /* NewsItem.swift in Sources */,
+				ED550FCD1C73960200057181 /* TableViewCell.swift in Sources */,
+				ED550F9F1C73905800057181 /* MasterViewController.swift in Sources */,
+				ED550F9D1C73905800057181 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FAB1C73905800057181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED550FB41C73905800057181 /* StretchyHeaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FB61C73905800057181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED550FBF1C73905800057181 /* StretchyHeaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED550FB11C73905800057181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED550F981C73905800057181 /* StretchyHeader */;
+			targetProxy = ED550FB01C73905800057181 /* PBXContainerItemProxy */;
+		};
+		ED550FBC1C73905800057181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED550F981C73905800057181 /* StretchyHeader */;
+			targetProxy = ED550FBB1C73905800057181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED550FA21C73905800057181 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED550FA31C73905800057181 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED550FA71C73905800057181 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED550FA81C73905800057181 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED550FC11C73905800057181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED550FC21C73905800057181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED550FC41C73905800057181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StretchyHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.StretchyHeader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED550FC51C73905800057181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StretchyHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.StretchyHeader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED550FC71C73905800057181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StretchyHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.StretchyHeaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StretchyHeader.app/StretchyHeader";
+			};
+			name = Debug;
+		};
+		ED550FC81C73905800057181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StretchyHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.StretchyHeaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StretchyHeader.app/StretchyHeader";
+			};
+			name = Release;
+		};
+		ED550FCA1C73905800057181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StretchyHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.StretchyHeaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StretchyHeader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED550FCB1C73905800057181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StretchyHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.StretchyHeaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StretchyHeader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED550F941C73905800057181 /* Build configuration list for PBXProject "StretchyHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED550FC11C73905800057181 /* Debug */,
+				ED550FC21C73905800057181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED550FC31C73905800057181 /* Build configuration list for PBXNativeTarget "StretchyHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED550FC41C73905800057181 /* Debug */,
+				ED550FC51C73905800057181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED550FC61C73905800057181 /* Build configuration list for PBXNativeTarget "StretchyHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED550FC71C73905800057181 /* Debug */,
+				ED550FC81C73905800057181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED550FC91C73905800057181 /* Build configuration list for PBXNativeTarget "StretchyHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED550FCA1C73905800057181 /* Debug */,
+				ED550FCB1C73905800057181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED550F911C73905800057181 /* Project object */;
+}
